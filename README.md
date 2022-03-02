@@ -231,8 +231,9 @@ T 는 반드시 값 형식이어야 한다
 class MyList<T> where T: class
 T 는 반드시 참조 형식이어야 한다
 ```
+  
 - 추상 클래스 interface	
-  ```
+```text
 추상 클래스 필요성: Monster 라면 모두 소리지르도록 만들고 싶음
 Shout() 를 무조건 재정의하도록 하고 싶은데, 기존의 virtual~override 로는 강제할 수 없음
 추상 클래스 한계: 인스턴스도 만들 수 없다 
@@ -242,8 +243,9 @@ Shout() 를 무조건 재정의하도록 하고 싶은데, 기존의 virtual~ove
 
 인터페이스 장점: 구현이 안 되어있으니, 하고 싶은 만큼 마음껏 상속(구현) 해줘도 되고, 자식에게 구현의 의무 또한 지어줄 수 있다.
 ```
+  
 - 프로퍼티. Property	
-```
+```text
   getter setter 의 지옥에서 벗어나게 해주는 C#만의 마법
 public int Hp { get; set; }
 
